@@ -1,0 +1,57 @@
+.Movie {
+  max-width: 998px;
+  width: 90vw;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.movie-poster {
+  margin-right: 50px;
+  flex: 1;
+}
+
+.movie-text {
+  flex: 3;
+  margin-top: 10px;
+  align-self: flex-start;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.movie-text .rating {
+  margin: 5px 0;
+}
+
+.movie-text .plot {
+  margin: 40px 0;
+}
+
+.movie-text p {
+  font-weight: 400;
+  margin: 10px 0;
+}
+.movie-text span {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.error-img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .Movie {
+    flex-direction: column;
+  }
+  .movie-poster {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 330px) {
+  .movie-poster img {
+    width: 90vw;
+  }
+}

@@ -1,0 +1,44 @@
+.Navbar {
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 998px;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container a {
+  text-decoration: none;
+}
+.container h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 25px;
+}
+
+.go-home {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #3434bb;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+.go-home svg {
+  margin-right: 5px;
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+  .container h1 {
+    margin-bottom: 15px;
+  }
+}
