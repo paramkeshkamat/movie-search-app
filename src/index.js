@@ -9,5 +9,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-//API key = 3bf34d58
