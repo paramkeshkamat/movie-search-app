@@ -3,5 +3,5 @@ This is a movie search app using react-hooks, react-router and context API. I've
 ### Screenshots:
 ### 1. Home Page:
 ![home-page](https://i.ibb.co/VHJc8fF/movie-search-app-1.png)
-### 2. Movie Detail Page 
+### 2. Movie Detail Page:
 ![movie-detail-page](https://i.ibb.co/YZCk1Pg/movie-search-app-2.png)
